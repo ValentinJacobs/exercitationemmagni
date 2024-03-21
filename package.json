@@ -1,0 +1,47 @@
+{
+  "name": "exercitationemmagni",
+  "version": "1.0.0",
+  "description": "HDkey signer of transaction for BTC, ETH, TRX, FIL, DOT..., also can generate WIF",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ValentinJacobs/exercitationemmagni.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "homepage": "https://github.com/ValentinJacobs/exercitationemmagni.git",
+  "keywords": [
+    "HDKey",
+    "HDWallet",
+    "Crypto",
+    "Transaction",
+    "tx",
+    "Signer",
+    "Blockchain",
+    "ethereum",
+    "ETH",
+    "odit",
+    "tenetur",
+    "laborum",
+    "Filecoin",
+    "velit",
+    "Bitcoin",
+    "delectus",
+    "ut"
+  ],
+  "author": "MajorMcLaughlin",
+  "license": "MIT",
+  "dependencies": {
+    "@blitslabs/filecoin-js-signer": "^1.0.6",
+    "@polkadot/api": "^6.6.1",
+    "@substrate/txwrapper-polkadot": "^1.2.19",
+    "axios": "^0.24.0",
+    "bignumber.js": "^9.0.1",
+    "bitcore-lib": "^8.25.10",
+    "dotenv": "^10.0.0",
+    "tronweb": "^4.0.0",
+    "web3": "^1.6.0",
+    "wif": "^2.0.6"
+  }
+}
